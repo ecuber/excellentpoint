@@ -70,6 +70,8 @@ class App extends React.Component<{}, State> {
   render () {
     const showPrompt = this.state.drawer
     const editorContainer = React.createRef<HTMLDivElement>()
+    // console.log(this.state.htmlContent)
+    // console.log(this.state.content)
     return (
       <div className='align-content-center'>
         <header>

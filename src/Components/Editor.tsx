@@ -78,7 +78,7 @@ const Editor: React.FC<PropTypes> = (props: PropTypes) => {
   const margin = useResize(props.elementRef)
 
   const isMobile = useMediaQuery({ query: '(max-width: 760px)' })
-  const height = isMobile ? 300 : 445
+  const height = isMobile ? 300 : '65vh'
 
   const Popover: React.FC = () => {
     const top = 135 + bounds.top
