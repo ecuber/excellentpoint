@@ -18,7 +18,7 @@ const Prompt: React.FC<PropTypes> = (props: PropTypes) => {
   const modules = { toolbar: false }
   return (
     <ReactQuill
-      placeholder={'paste your discussion prompt here'}
+      placeholder={'paste your prompt here'}
       className='shadow-sm'
       style={styles}
       theme='bubble'
