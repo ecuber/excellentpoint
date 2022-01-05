@@ -11,7 +11,7 @@ import './App.css'
 import About from './Components/About'
 
 const countWords = (test: string) => {
-  const matches = test.trim().match(/\b[-?—?'?(\w+)?]+\b/gi) || []
+  const matches = test.trim().match(/\b[-?—?'?‘?’?(\w+)?]+\b/gi) || []
   return matches?.length ?? 0
 }
 
